@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Phone, Mail } from "lucide-react"
+import { Phone, Mail, Instagram, Facebook } from "lucide-react"
 
 export function Footer() {
   return (
@@ -41,10 +41,30 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Legal */}
+          {/* Social & Legal */}
           <div>
-            <h3 className="font-semibold text-foreground">Informacje</h3>
-            <div className="mt-3 flex flex-col gap-2">
+            <h3 className="font-semibold text-foreground">Śledź mnie</h3>
+            <div className="mt-3 flex gap-4">
+              <a
+                href="https://www.instagram.com/m/aktywnienacodzien_"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+                aria-label="Instagram"
+              >
+                <Instagram className="h-5 w-5" aria-hidden="true" />
+              </a>
+              <a
+                href="https://www.facebook.com/a.ania.kosinska.a/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-5 w-5" aria-hidden="true" />
+              </a>
+            </div>
+            <div className="mt-4">
               <Link
                 href="/polityka-prywatnosci"
                 className="text-sm text-muted-foreground transition-colors hover:text-primary"

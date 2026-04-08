@@ -48,7 +48,7 @@ export default function OMniePage() {
             <FadeIn>
               <div className="relative mx-auto aspect-[3/4] max-w-md overflow-hidden rounded-2xl lg:mx-0">
                 <Image
-                  src="/images/trainer-ania.jpg"
+                  src="/images/ania-gym.png"
                   alt="Ania - trenerka personalna"
                   fill
                   className="object-cover"

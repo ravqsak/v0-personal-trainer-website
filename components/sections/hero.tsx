@@ -9,7 +9,7 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-trainer.jpg"
+          src="/images/ania-gym.png"
           alt="Trening personalny dla kobiet"
           fill
           className="object-cover object-center"

@@ -11,7 +11,7 @@ export function AboutPreviewSection() {
           <FadeIn>
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               <Image
-                src="/images/trainer-ania.jpg"
+                src="/images/ania-profile.png"
                 alt="Ania - trenerka personalna"
                 fill
                 className="object-cover"
