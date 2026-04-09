@@ -29,7 +29,7 @@ export default function PolitykaPrywatnosciPage() {
                 </h2>
                 <p className="mt-4 leading-relaxed text-muted-foreground">
                   Administratorem Twoich danych osobowych jest Anna Kosińska,
-                  prowadząca działalność pod nazwą &quot;Aktywnie na codzień&quot; z
+                  prowadząca działalność pod nazwą &quot;Aktywnie na co dzień&quot; z
                   siedzibą w Poznaniu. W sprawach związanych z ochroną danych
                   osobowych możesz kontaktować się pod adresem email:
                   ak.annakosinska@gmail.com.
